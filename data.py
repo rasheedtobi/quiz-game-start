@@ -13,5 +13,3 @@ question_data = [
         "answer": "False"},
     {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
 ]
-
-print(question_data[0])

@@ -8,6 +8,9 @@ for quest in question_data:
     question_bank.append(new_q)
 
 quiz = QuizBrain(question_bank)
-quiz.next_question()
+while quiz.more_question():
+    quiz.next_question()
 
+# TruFalse
+quiz.final_score()
 # print(type(question_bank))
